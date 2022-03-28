@@ -8,12 +8,18 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgChartsModule } from 'ng2-charts';
 import { FormsModule, NgForm, NgModel } from '@angular/forms';
+import { CukierComponent } from './cukier/cukier.component';
+import { KcalreqComponent } from './kcalreq/kcalreq.component';
+import { WaterComponent } from './water/water.component';
 @NgModule({
   declarations: [
     AppComponent,
     BmiComponent,
     TitleTabComponent,
-    NavbarComponent
+    NavbarComponent,
+    CukierComponent,
+    KcalreqComponent,
+    WaterComponent
   ],
   imports: [
     BrowserModule,
