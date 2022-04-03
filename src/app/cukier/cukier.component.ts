@@ -19,20 +19,23 @@ export class CukierComponent implements OnInit {
     this.showResult= true;
     let c= Number(this.cukier.sugar);
     
-    if(c<=99)
+    if(c>70 && c<=99)
     {
+      this.cukier.info='Normal sugar';
+      
       //return('OK')
-      this.info='OK';
+      
     }
-    if(c>99 && c<=125)
+    else if(c>99)
     {
       //return('Low');
-      this.info='Low';
+      this.cukier.info='Sugar too high';
+      
     }
-    if(c>125)
+    else
     {
       //return('D')
-      this.info='D';
+      this.cukier.info='Sugar too low';
     }
     return myForm;
 
