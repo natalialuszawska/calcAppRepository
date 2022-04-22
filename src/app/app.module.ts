@@ -11,6 +11,7 @@ import { FormsModule, NgForm, NgModel } from '@angular/forms';
 import { CukierComponent } from './cukier/cukier.component';
 import { KcalreqComponent } from './kcalreq/kcalreq.component';
 import { WaterComponent } from './water/water.component';
+import { BodyComponent } from './body/body.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +20,8 @@ import { WaterComponent } from './water/water.component';
     NavbarComponent,
     CukierComponent,
     KcalreqComponent,
-    WaterComponent
+    WaterComponent,
+    BodyComponent
   ],
   imports: [
     BrowserModule,
