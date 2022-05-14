@@ -12,6 +12,7 @@ import { CukierComponent } from './cukier/cukier.component';
 import { KcalreqComponent } from './kcalreq/kcalreq.component';
 import { WaterComponent } from './water/water.component';
 import { BodyComponent } from './body/body.component';
+import { InsulinaComponent } from './insulina/insulina.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +22,8 @@ import { BodyComponent } from './body/body.component';
     CukierComponent,
     KcalreqComponent,
     WaterComponent,
-    BodyComponent
+    BodyComponent,
+    InsulinaComponent
   ],
   imports: [
     BrowserModule,
